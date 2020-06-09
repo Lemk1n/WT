@@ -1,0 +1,291 @@
+a:visited {
+  color: #181818;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: #181818;
+  text-decoration: none;
+}
+
+.HEAD {
+  width: 100%;
+}
+
+.TOPMENU div {
+  display: inline-block;
+  font-size: 6mm;
+}
+
+.TOPMENU {
+  height: 5em;
+  background-color: snow;
+}
+
+.TOPMENU div:first-child {
+  position: absolute;
+  left: 70px;
+  top: 20px;
+  font-family: "Lexend Tera", sans-serif;
+  font-weight: bold;
+}
+
+.TOPMENU div:not(first-child) {
+  font-family: "Manjari", sans-serif;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+}
+
+.TOPMENU span {
+  padding-left: 1em;
+  color: grey;
+}
+
+.REDHEAD {
+  background-color: Wheat;
+  font-family: "Oswald", sans-serif;
+  font-size: 6mm;
+  padding: 0.5em 0 0.5em 0;
+  text-align: center;
+}
+
+.REDHEAD span {
+  border-right: solid black;
+  padding: 0 2% 0 2%;
+}
+
+.REDHEAD a:hover {
+  color: grey;
+  transition: 0.5s;
+}
+
+.REDHEAD a {
+  color: 181818;
+  transition: 0.5s;
+}
+
+.REDHEAD span:last-of-type {
+  border-right: none;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+.PIC1 {
+  width: 100%;
+  height: 45em;
+  background: url("cars/salon3.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.audi_head {
+  margin-top: 0em;
+  position: absolute;
+  top: 37em;
+}
+
+.PIC1 span {
+  font-family: "Play", sans-serif;
+  font-size: 20mm;
+  color: snow;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+.PIC1 p {
+  font-family: "Manjari", sans-serif;
+  font-size: 10mm;
+  color: lightgrey;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+.CARS {
+  text-align: center;
+  font-family: "Play", sans-serif;
+  width: 99%;
+  margin-top: 10em;
+}
+
+.CARS span {
+  display: inline-block;
+  font-size: 10mm;
+  font-family: "Manjari", sans-serif;
+  color: grey;
+  padding-bottom: 0.7em;
+  margin-top: 0.2em;
+  border-bottom: wheat solid 3mm;
+}
+
+.CARS span:first-of-type {
+  font-family: "Play", sans-serif;
+  font-size: 20mm;
+  color: #181818;
+  border: none;
+}
+
+.CARS_IMGS1,
+.CARS_IMGS2 {
+  margin-top: 12em;
+  padding: 0 10em 0 10em;
+  text-align: center;
+  font-family: "Play", sans-serif;
+}
+
+.CARS_IMGS1 div,
+.CARS_IMGS2 div {
+  text-align: center;
+  width: 280px;
+  height: 370px;
+  display: inline-block;
+  margin-right: 3em;
+  vertical-align: bottom;
+  transition: 0.5s;
+}
+
+.CARS_IMGS1 p,
+.CARS_IMGS2 p {
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: grey;
+}
+
+.CARS_IMGS2 img {
+  width: 275px;
+  height: 197px;
+}
+
+.CARS_IMGS1 div:hover,
+.CARS_IMGS2 div:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+.CREDIT {
+  background-color: wheat;
+  height: 600px;
+  color: #181818;
+  font-size: 10mm;
+  font-family: "Play", sans-serif;
+  margin-top: 2em;
+}
+
+.CREDIT #abc {
+  padding-top: 170px;
+  width: 25em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.CREDIT .BUT div {
+  background-color: #181818;
+  color: snow;
+  text-align: center;
+  margin-top: 4em;
+  transition: 0.5s;
+}
+
+.CREDIT .BUT div:hover {
+  background-color: lightgrey;
+  color: black;
+  text-align: center;
+  transition: 0.5s;
+  transform: scale(1.1);
+  margin-top: 4em;
+}
+
+.PIC3 {
+  background-image: url("cars/bmwwp.jpg");
+  width: 100%;
+  height: 45em;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+#div2 {
+  background-color: #181818;
+  margin-top: 0;
+  text-align: center;
+  color: wheat;
+  font-family: "Manjari", sans-serif;
+  padding-top: 2em;
+}
+
+#div2 > div:first-of-type {
+  font-family: "Play", sans-serif;
+  font-size: 20mm;
+  color: snow;
+  margin-bottom: 0.4em;
+}
+
+.CONTACTS div {
+  display: inline-block;
+  font-size: 7mm;
+  color: grey;
+  width: 400px;
+  margin-right: 2em;
+  text-align: left;
+}
+
+.CONTACTS {
+  margin-top: 3em;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.CONTACTS img {
+  width: 20mm;
+  float: left;
+}
+
+.SOCIALS {
+  text-align: center;
+  margin-top: 2em;
+  padding-bottom: 1em;
+  border-bottom: solid grey 1px;
+}
+
+.SOCIALS img {
+  width: 13mm;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+.SOCIALS img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.BOTTOM {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+  font-size: 20px;
+  color: grey;
+}
+
+@media all and (max-width: 1000px) {
+  #div2 {
+    height: 100%;
+  }
+
+  .PIC1 p {
+    display: none;
+  }
+
+  .TOPMENU div:not(first-child) {
+    display: none;
+  }
+
+  .PHONE {
+    display: none;
+  }
+}

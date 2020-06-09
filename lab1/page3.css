@@ -1,0 +1,27 @@
+.PIC1 {
+  width: 100%;
+  height: 45em;
+  background: url("cars/old2.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.PIC1 span {
+  margin-left: 20px;
+}
+
+[src*="car"] {
+  width: 275px;
+  height: 183px;
+}
+
+#div2 {
+  margin-top: 7em;
+}
+
+@media all and (max-width: 1200px) {
+  .PIC1 {
+    background: url("cars/ford.jpg");
+    background-size: 100%;
+  }
+}
