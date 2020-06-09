@@ -1,0 +1,10 @@
+#div2 {
+  margin-top: 5em;
+}
+
+@media all and (max-width: 1200px) {
+  .PIC1 {
+    background: url("cars/ford.jpg");
+    background-size: 100%;
+  }
+}
